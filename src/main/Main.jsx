@@ -1,13 +1,7 @@
 import TableForm from '../form/TableForm';
 import ProductsTable from '../table/ProductsTable';
 
-const Main = ()=>{
-
-    const [products, setProducts] = useState([]);
-
-    const handleFromData = (data) => {
-        setProducts([{ ...data}]);
-      }
+const Main = () => {
 
     return (
     <>

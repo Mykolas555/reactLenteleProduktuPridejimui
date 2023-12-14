@@ -4,18 +4,8 @@ import Button from 'react-bootstrap/Button';
 
 const TableForm = () => {
 
-    const handleChange = (event) => {
-        setFormData({
-          ...formData,
-          [event.target.name]: event.target.value
-        });
-      }
-
-    const submitHandler = (event) => {
-        event.preventDefault();
-        props.onSave(formData);
-    }
     
+
     return (
         <>    
         <Form>
